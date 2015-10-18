@@ -1,0 +1,15 @@
+{
+  "Alloy": {
+    "TableViewRow": {
+      "-id": "row",
+      "ImageView": [
+        { "-id": "check" },
+        { "-id": "remove" }
+      ],
+      "Label": {
+        "-id": "task",
+        "-text": "{item}"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container">
+		
+		<View id="viewTitle"  backgroundColor="#576996" top = "0%" width="100%" height="10%" >
+			<ImageView id="menu" width="20%" height="100%" image="image/menu.png" left="1%"></ImageView>
+			<ImageView id="library" width="20%" height="90%" image="image/library.png" left="20%"></ImageView>	
+			<Label id="title"  textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" left="42%" >My Library</Label>
+		</View>
+
+		<View class="viewCategory" backgroundColor="#111111" top="10%" width="100%" height="10%">
+			<ImageView  left="15%" width="20%" height="60%" top="5%" id="topReads" image="image/up.png"></ImageView>
+			<ImageView  left="65%" width="20%" height="60%" top="5%" id="topRated" image="image/top-rated.png"></ImageView>
+			<Label left="15%" width="20%" top="65%" height="30%" color="white" textAlign="center">Top Reads</Label>
+			<Label left="65%" width="20%" top="65%" height="30%" color="white" textAlign="center">Top Rated</Label>
+		</View>
+
+		<TableView id="list" top="20%" height = "81%" width = "100%" backgroundColor="#ffffff"></TableView>
+
+	</Window>
+
+</Alloy>

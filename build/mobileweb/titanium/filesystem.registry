@@ -1,4 +1,4 @@
-ts	1444988044000
+ts	1447782057000
 Default-Landscape.png	513333
 Default-Portrait.png	76153
 Default.png	110858
@@ -9,9 +9,11 @@ alloy
 	controllers
 		BaseController.js	14997
 		index.js	13525
+		login.js	3390
 		row.js	835
 	styles
 		index.js	302
+		login.js	87
 		row.js	20
 	sync
 		localStorage.js	1913
@@ -38,6 +40,8 @@ image
 	play.png	16225
 	rating.png	37275
 	redcircle.png	6236
+	signwithfacebook.png	11364
+	signwithgoogle.png	16077
 	stop.png	35126
 	top-rated.png	8741
 	up.png	36208
@@ -52,6 +56,8 @@ images
 	play.png	16225
 	rating.png	37275
 	redcircle.png	6236
+	signwithfacebook.png	11364
+	signwithgoogle.png	16077
 	stop.png	35126
 	top-rated.png	8741
 	up.png	36208

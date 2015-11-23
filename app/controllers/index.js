@@ -3,6 +3,7 @@ function doClick(e) {
 }
 
 $.index.open();
+//$.login.open();
 loadData();
 
 
@@ -74,7 +75,7 @@ function loadData(){
 		for(var i=0; i<length; i++){
 			for( var j=i; j<length; j++){
 				var iRating = sampleJSON[i].rating;
-				                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           var jRating = sampleJSON[j].rating;
+				var jRating = sampleJSON[j].rating;
 				
 				if(iRating < jRating){
 					var temp = sampleJSON[i];
@@ -118,7 +119,7 @@ function loadTableView(sampleJSON){
 			    width:"5%", height: "30%"
 			  });
 		row.add(imageCircle);
-				  
+
 		var imageNext = Ti.UI.createImageView({
 			    image:"/images/blacknext.png",
 			    left:"90%", top: "35%",
@@ -137,6 +138,7 @@ function loadTableView(sampleJSON){
 		
 		if(bReads == true){
 			//if top reads is selected, showing hours for info
+			
 			var strTime = parseInt(minutes, 10);
 			strTime = strTime / 60;
 			strTime = parseInt(strTime, 10);
@@ -222,7 +224,8 @@ function loadTableView(sampleJSON){
 			    text:strAuthor,
 			    left:"5%", top:"13%",
 			    width:"25%", height:"5%"
-			  });  
+			  }); 
+			  
 			rowContent.add(labelAuthor);
 			
 			var labelDescription = Ti.UI.createLabel({
@@ -253,6 +256,7 @@ function loadTableView(sampleJSON){
 				width:"60", height:"60",
 				backgroundImage:"/images/play.png"
 			});
+			
 			rowContent.add(btnPlay);
 			tableData.push(rowContent);
 			
@@ -266,3 +270,5 @@ function showIntro(){
 	
 
 }
+
+

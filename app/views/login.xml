@@ -1,0 +1,10 @@
+<Alloy>
+	<View class="container">
+		<View id = "viewGoogleLogin" width = "100%" height = "15%" top = "35%">
+			<ImageView id = "imageGoogleLogin" width = "80%" height = "80%" top = "10%" image = "image/signwithgoogle.png"></ImageView>
+		</View>
+		<View id = "viewFacebookLogin" width = "100%" height = "15%" top = "50%">
+			<ImageView id = "imageFacebookLogin" width = "80%" height = "80%" top = "10%" image = "image/signwithfacebook.png"></ImageView>
+		</View>
+	</View>
+</Alloy>
